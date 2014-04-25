@@ -1,7 +1,9 @@
 ## Put comments here that give an overall description of what your
 ## functions do
 
-## Write a short comment describing this function
+## makeCacheMatrix creates the vector invMatrix.
+## The value of invMatrix is set.
+## The inverse of the matrix x is then computed and affected to invMatrix via setInverse and getInverse
 
 makeCacheMatrix <- function(x = matrix()) {
   invMatrix <- NULL
